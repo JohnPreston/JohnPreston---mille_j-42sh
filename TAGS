@@ -1,0 +1,412 @@
+
+src/main/42sh.c,99
+static char	*prompt;prompt25,465
+void		sig1(27,487
+void		gere_signal(34,585
+int			main(39,634
+
+lib/my_getnbr.c,23
+int		my_getnbr(13,248
+
+lib/my_memset.c,35
+void		*my_memset(my_memset11,231
+
+lib/my_put_tools.c,99
+void		my_putchar(14,275
+void		my_putstr(19,324
+void		my_puterror(24,389
+void		my_putnbr(29,456
+
+lib/my_strcat.c,103
+char		*my_strcat(my_strcat13,248
+char		*my_strncat(my_strncat40,650
+char		*replace(replace52,862
+
+lib/my_strcmp.c,47
+int		my_strcmp(14,268
+int		my_strncmp(34,564
+
+lib/my_strcpy.c,125
+void		my_strcpy(11,231
+void		my_strncpy(26,385
+void		my_strcpy2(41,546
+void		my_strcpy3(56,714
+void		my_strcpy4(83,1017
+
+lib/my_strdup.c,146
+char		*my_strdup(my_strdup14,268
+char		*my_strdup2(my_strdup225,444
+char		*my_strdup3(my_strdup336,637
+char		*my_strdup4(my_strdup447,830
+
+lib/my_strlen.c,71
+int		my_strlen(11,231
+int		my_strlen2(23,353
+int		my_strlen3(35,489
+
+lib/my_xfree.c,110
+void		*my_xfree(my_xfree14,272
+char		*my_xxfree(my_xxfree24,378
+char		**my_xfree_tab(my_xfree_tab34,485
+
+lib/my_xmalloc.c,76
+void		*my_xmalloc(my_xmalloc14,270
+void		*my_xxmalloc(my_xxmalloc25,434
+
+lib/tab_tools.c,49
+void		my_show_tab(14,268
+int		my_tablen(30,439
+
+src/bonus/write_prompt.c,141
+char		*get_user(get_user16,317
+char		*get_host(get_host28,531
+static char	*make1(make140,745
+char		*write_prompt(write_prompt56,1073
+
+src/bonus/get_conf_file.c,86
+static char	*get_the_conf_file(get_the_conf_file19,385
+void		get_conf_file(48,1037
+
+src/bonus_alias/check_alias_syntax.c,72
+int		check_setalias_syntax(17,374
+int		check_unsetalias_syntax(38,876
+
+src/bonus_alias/my_alias.c,114
+int		my_setalias(17,347
+int		my_unsetalias(36,810
+int		my_update_alias(63,1345
+int		my_up_or_setalias(84,1884
+
+src/bonus_alias/get_alias.c,35
+char		*get_alias(get_alias16,317
+
+src/builtin_cd/my_cd.c,142
+char		**add_path_to_pwd(add_path_to_pwd19,361
+int		go_to_home(47,843
+int		go_somewhere(67,1274
+int		go_back(91,1862
+int		my_cd(110,2285
+
+src/builtin_cd/make_pwd.c,108
+char		**tab_cpy(tab_cpy18,348
+char		**make_pwd_tab(make_pwd_tab34,591
+char		*make_pwd(make_pwd62,1187
+
+src/builtin_cd/go_from_root.c,28
+int		move_from_root(16,318
+
+src/builtin_echo/my_echo.c,21
+int		my_echo(15,281
+
+src/builtin_env/check_builtins_env_syntax.c,99
+int		check_setenv_syntax(17,372
+int		check_unsetenv_syntax(38,850
+int		check_env_syntax(47,1037
+
+src/builtin_env/my_builtins_env.c,128
+int		my_setenv(17,345
+int		my_unsetenv(44,863
+int		my_env(71,1381
+int		my_update_env(81,1548
+int		my_up_or_setenv(109,2176
+
+src/builtin_exit/builtin_exit.c,87
+void		exit_and_free_all(15,305
+int		str_is_num(27,579
+int		exec_builtin_exit(41,743
+
+src/exec/exec_builtins_alias.c,97
+t_builtins_alias	gl_builtins_alias2[gl_builtins_alias216,329
+int			exec_builtins_alias(22,471
+
+src/exec/exec_builtins_env.c,86
+t_builtins_env	gl_builtins_env[gl_builtins_env16,327
+int		exec_builtins_env(23,487
+
+src/exec/exec_prog_syst.c,78
+int		execs_errors(21,429
+int		my_xexecve(30,612
+int		exec_prog_syst(44,879
+
+src/exec/global_exec.c,60
+t_it_is		gl_it_is[gl_it_is19,373
+int		global_exec(37,870
+
+src/exec/exec_mult_execs.c,53
+static int	loop(20,393
+int		exec_mult_execs(43,801
+
+src/exec/exec_and.c,106
+static int	check_commands(21,393
+static int	error(35,563
+static int	loop(41,654
+int		exec_and(64,1071
+
+src/exec/exec_or.c,105
+static int	check_commands(21,393
+static int	error(35,563
+static int	loop(41,654
+int		exec_or(64,1059
+
+src/exec/exec_return.c,25
+int		exec_return(15,283
+
+src/gets/get_the_path.c,42
+char		**get_the_path(get_the_path17,334
+
+src/gets/get_argc_argv.c,159
+static int	is_printable(14,276
+static int	char_ok(21,371
+static char	*fill_array(fill_array28,499
+int		get_argc(46,861
+char		**get_argv(get_argv69,1140
+
+src/gets/get_mult_exec.c,174
+static int	is_printable(14,276
+static int	char_ok(21,371
+static char	*fill_array(fill_array28,473
+int		get_mult_argc(46,835
+char		**get_mult_argv(get_mult_argv69,1119
+
+src/gets/get_env_path.c,171
+static int	is_printable(14,276
+static int	char_ok(21,371
+static char	*fill_array(fill_array28,473
+int		get_nb_paths(46,835
+char		**get_env_path(get_env_path69,1118
+
+src/gets/get_cd_path.c,167
+static int	is_printable(14,276
+static int	char_ok(21,371
+static char	*fill_array(fill_array28,473
+int		get_nb_pwd(46,835
+char		**get_cd_path(get_cd_path69,1116
+
+src/gets/get_and_argv.c,171
+static int	is_printable(14,276
+static int	char_ok(21,371
+static char	*fill_array(fill_array28,473
+int		get_and_argc(46,835
+char		**get_and_argv(get_and_argv69,1118
+
+src/gets/get_or_argv.c,168
+static int	is_printable(14,276
+static int	char_ok(21,371
+static char	*fill_array(fill_array28,473
+int		get_or_argc(46,835
+char		**get_or_argv(get_or_argv69,1117
+
+src/gets/get_pipes_execs.c,177
+static int	is_printable(14,276
+static int	char_ok(21,371
+static char	*fill_array(fill_array28,473
+int		get_argc_pipes(46,835
+char		**get_argv_pipes(get_argv_pipes69,1120
+
+src/gets/get_redir_right_argv.c,191
+static int	is_printable(14,276
+static int	char_ok(21,371
+static char	*fill_tab(fill_tab28,473
+int		get_redir_right_argc(46,833
+char		**get_redir_right_argv(get_redir_right_argv69,1124
+
+src/gets/get_redir_left_argv.c,192
+static int	is_printable(14,285
+static int	char_ok(21,380
+static char	*fill_array(fill_array28,482
+int		get_redir_left_argc(46,844
+char		**get_redir_left_argv(get_redir_left_argv69,1134
+
+src/gets/get_file_lines.c,180
+static int	is_printable(14,276
+static int	char_ok(21,371
+static char	*fill_array(fill_array28,474
+int		get_file_nb_lines(46,836
+char		**get_file_lines(get_file_lines69,1124
+
+src/lexer/lexer.c,20
+void		lexer(19,370
+
+src/lexer/alias.c,56
+void		build_argv(19,360
+int		is_there_an_alias(38,809
+
+src/lexer/home.c,64
+int		there_is_home(15,273
+void		modify_prompt_for_home(29,468
+
+src/lexer/strstr.c,23
+int		my_strstr(11,223
+
+src/parser/which_to_apply.c,62
+t_it_is		gl_it_is2[gl_it_is218,362
+int		which_it_is(35,866
+
+src/parser/is_mult_execs.c,27
+int		is_mult_execs(16,320
+
+src/parser/is_builtin_cd.c,27
+int		is_builtin_cd(14,270
+
+src/parser/is_builtin_echo.c,29
+int		is_builtin_echo(14,277
+
+src/parser/is_builtin_env.c,85
+t_builtins_env	gl_builtins_env2[gl_builtins_env216,322
+int		is_builtin_env(23,483
+
+src/parser/is_builtin_alias.c,91
+t_builtins_alias	gl_builtins_alias[gl_builtins_alias16,324
+int		is_builtin_alias(22,465
+
+src/parser/is_exec.c,50
+int		can_access(18,347
+int		is_prog_syst(28,498
+
+src/parser/is_builtin_exit.c,29
+int		is_builtin_exit(14,281
+
+src/parser/is_redir.c,121
+int		is_redir_right(16,304
+int		is_dble_redir_right(32,574
+int		is_redir_left(48,851
+int		is_dble_redir_left(64,1120
+
+src/parser/is_and.c,20
+int		is_and(16,296
+
+src/parser/is_or.c,19
+int		is_or(16,296
+
+src/parser/prior_or_and.c,32
+int		which_one_in_first(16,320
+
+src/parser/is_mult_pipes.c,26
+int		is_mult_pipe(16,309
+
+src/pipes/pipe.c,128
+int		leave_and_free(27,510
+void		exec_sons(33,602
+void		exec_dad(54,1069
+int		close_to_exit(74,1511
+int		make_pipe(81,1631
+
+src/pipes/check_pipe.c,102
+int		pipe_error(19,362
+int		check_pipe_nb(34,712
+int		check_execs(55,1019
+int		check_pipe(83,1610
+
+src/redir/check_error.c,118
+int		check_nb(21,404
+int		check_redir_right(42,821
+int		check_redir_left(69,1598
+int		check_db_redir_left(96,2381
+
+src/redir/db_redir_left.c,53
+void		init_db_r_l(23,442
+int		db_redir_left(42,925
+
+src/redir/db_redir_right.c,54
+void		init_db_r_r(23,442
+int		db_redir_right(42,926
+
+src/redir/do_db_r_l.c,150
+static int	xread(24,469
+char		*get_line(get_line34,652
+void		blank(61,1233
+char		**get_each_lines(get_each_lines68,1322
+int		do_db_r_l(86,1708
+
+src/redir/do_db_r_r.c,58
+static int	create_the_file(23,445
+int		do_db_r_r(45,827
+
+src/redir/do_redir_left.c,46
+int		dup_the_file(24,468
+int		do_r_l(45,820
+
+src/redir/do_redir_right.c,55
+static int	create_the_file(24,470
+int		do_r_r(46,852
+
+src/redir/redir_tools2.c,66
+char		**concat_tabs(concat_tabs24,465
+int		dup_and_exec(48,851
+
+src/redir/redir_tools.c,214
+int		*count(count19,365
+char		**delete_first_elem_in_tab(delete_first_elem_in_tab48,854
+int		redir_error(68,1234
+t_redir		*free_redirs_vars(free_redirs_vars90,1839
+char		*rebuild_name(rebuild_name105,2238
+
+src/redir/simp_redir.c,80
+void		init_redir_simp(23,442
+int		redir_right(36,885
+int		redir_left(58,1359
+
+src/tools/get_env_var.c,39
+char		*get_env_var(get_env_var16,312
+
+src/tools/init_vars.c,76
+static char	**get_extern_env(get_extern_env19,365
+void		init_vars(36,640
+
+src/tools/env_tools.c,29
+int		find_pos_in_env(15,292
+
+src/tools/get_prompt.c,82
+int		my_xread(17,333
+int		my_xxread(27,513
+char		*get_prompt(get_prompt45,934
+
+src/tools/tools.c,103
+int		find_char(17,328
+static int	char_ok(31,492
+int		these_chars_only(38,582
+int		my_xchdir(52,737
+
+src/tools/create_argv_spec.c,84
+char		**create_argv1(create_argv115,299
+char		**create_argv2(create_argv232,605
+
+src/tools/get_home.c,195
+char		*get_home_via_username(get_home_via_username19,369
+void		home_error(37,682
+char		*test_and_move(test_and_move43,799
+char		*ask_home(ask_home66,1326
+char		*get_home(get_home84,1675
+
+src/tools/get_file.c,125
+int		my_xopen(17,321
+int		my_xopen2(27,447
+int		my_xopen3(37,599
+int		my_xwrite(47,754
+char		*get_file(get_file60,1013
+
+src/tools/get_pwd.c,80
+char		*get_pwd_via_home(get_pwd_via_home16,304
+char		*get_pwd(get_pwd31,514
+
+src/tools/tab_functions.c,222
+char		**add_elem_to_tab(add_elem_to_tab15,294
+char		**delete_elem_in_tab(delete_elem_in_tab33,686
+char		**update_elem_in_tab(update_elem_in_tab55,1102
+char		**delete_last_elem_in_tab(delete_last_elem_in_tab78,1578
+
+src/tools/tab_tools.c,152
+char		*concat_tab_elems(concat_tab_elems15,284
+char		*concat_tab_elems2(concat_tab_elems236,632
+char		*nconcat_tab_elems(nconcat_tab_elems59,1026
+
+src/tools/xclose.c,23
+int		my_xclose(14,267
+
+src/tools/xfunc.c,68
+int		my_xpipe(16,301
+int		my_xdup2(29,492
+pid_t		my_xfork(42,695
+
+src/tools/free_t_vars.c,41
+t_vars		*free_t_vars(free_t_vars16,308

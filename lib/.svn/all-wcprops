@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/svn/42sh/!svn/ver/1/lib
+END
+my_xfree.c
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/42sh/!svn/ver/1/lib/my_xfree.c
+END
+my_memset.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/lib/my_memset.c
+END
+my_xmalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/42sh/!svn/ver/1/lib/my_xmalloc.c
+END
+my_strcat.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/lib/my_strcat.c
+END
+my_getnbr.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/lib/my_getnbr.c
+END
+my_strdup.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/lib/my_strdup.c
+END
+tab_tools.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/lib/tab_tools.c
+END
+my_strcpy.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/lib/my_strcpy.c
+END
+my_strlen.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/lib/my_strlen.c
+END
+my_put_tools.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/42sh/!svn/ver/1/lib/my_put_tools.c
+END
+my_strcmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/lib/my_strcmp.c
+END

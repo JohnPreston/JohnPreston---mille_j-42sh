@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/42sh/!svn/ver/1/include
+END
+builtin_cd.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/42sh/!svn/ver/1/include/builtin_cd.h
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/42sh/!svn/ver/1/include/parser.h
+END
+lexer.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/include/lexer.h
+END
+42sh.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/42sh/!svn/ver/1/include/42sh.h
+END
+tools.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/include/tools.h
+END
+builtins_env.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/42sh/!svn/ver/1/include/builtins_env.h
+END
+builtins_alias.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/42sh/!svn/ver/1/include/builtins_alias.h
+END
+gets.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/42sh/!svn/ver/1/include/gets.h
+END
+my.h
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/42sh/!svn/ver/1/include/my.h
+END
+bonus.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/include/bonus.h
+END
+execs.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/42sh/!svn/ver/1/include/execs.h
+END
+redirs.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/42sh/!svn/ver/1/include/redirs.h
+END
